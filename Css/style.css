@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    top: 30%;
+    left:10%;
+    width: 30%;
+    /* text-align: center; */
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #b1d8dc;
+}
+
+tr:hover {
+
+    background-color: rgb(214, 105, 65);
+
+}
+#btn {
+    background-color: #009688;
+    margin:20px;
+    font-weight: 600
+}
+
